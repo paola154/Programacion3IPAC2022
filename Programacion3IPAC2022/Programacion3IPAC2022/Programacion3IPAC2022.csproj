@@ -76,6 +76,12 @@
     <Compile Include="FuncionesTexto.Designer.cs">
       <DependentUpon>FuncionesTexto.cs</DependentUpon>
     </Compile>
+    <Compile Include="LlamarClases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LlamarClases.Designer.cs">
+      <DependentUpon>LlamarClases.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Funciones.resx">
@@ -92,6 +98,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FuncionesTexto.resx">
       <DependentUpon>FuncionesTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LlamarClases.resx">
+      <DependentUpon>LlamarClases.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -114,6 +123,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClasesLibreria\ClasesLibreria.csproj">
+      <Project>{af7d8e9f-c3fe-4541-8a38-2b38485d3e04}</Project>
+      <Name>ClasesLibreria</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

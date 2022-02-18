@@ -16,7 +16,7 @@ namespace Programacion3IPAC2022
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FuncionesRecursivas());
+            Application.Run(new LlamarClases());
         }
     }
 }
