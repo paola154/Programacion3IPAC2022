@@ -64,6 +64,12 @@
     <Compile Include="FuncionesFecha.Designer.cs">
       <DependentUpon>FuncionesFecha.cs</DependentUpon>
     </Compile>
+    <Compile Include="FuncionesRecursivas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FuncionesRecursivas.Designer.cs">
+      <DependentUpon>FuncionesRecursivas.cs</DependentUpon>
+    </Compile>
     <Compile Include="FuncionesTexto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FuncionesFecha.resx">
       <DependentUpon>FuncionesFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FuncionesRecursivas.resx">
+      <DependentUpon>FuncionesRecursivas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FuncionesTexto.resx">
       <DependentUpon>FuncionesTexto.cs</DependentUpon>
